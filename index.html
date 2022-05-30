@@ -1,48 +1,93 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="Descripción" content="Este es mi portafolio">
-    <meta name="author" content="NancyS">
-    <link rel="stylesheet" href="./styles.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="Descripción" content="Este es mi portafolio" />
+    <meta name="author" content="NancyS" />
+    <link rel="stylesheet" href="./styles.css" />
+    <script src="https://kit.fontawesome.com/c87d825308.js" crossorigin="anonymous"></script>
     <title>Portafolio Nancy S</title>
-</head>
-<body>
-<header>
- <nav>
-<ul>
-    <li>
-        <a href="./contact.html">Contacto</a>
-    </li>
-    <li>
-        <a href="./blog.html">Blog</a>
-    </li>
-    <li>
-        <a href="./projects.html">Proyectos</a>
-    </li>
-    <li>
-        <a href="./about.html">Sobre mí</a>
-    </li>
-    
-</ul>
- </nav>  
- <main>
-     <img src="https://picsum.photos/200" alt="Mi foto de perfil">
-     <h2>Nancy Soriano</h2>
-     <p>Esta va a ser mi descripción</p>
-     <ul>
-         <li>React</li>
-         <li>html</li>
-         <li>CSS</li>
-         <li>JavaScript</li>
-     </ul>
+  </head>
+  <body>
+    <header class="header">
+      <nav class="header--nav">
+        <ul class="header--list">
+          <li>
+            <img
+              class="header--img"
+              src="https://picsum.photos/200"
+              alt="logo Nan"
+            />
+          </li>
+          <li><a href="./">Home</a></li>
 
-     <footer>
-         Todos los derechos reservados 2022
-     </footer>
- </main>
-</header> 
-</body>
+          <li>
+            <a href="./contact.html">Contacto</a>
+          </li>
+          <li>
+            <a href="./blog.html">Blog</a>
+          </li>
+          <li>
+            <a href="./projects.html">Proyectos</a>
+          </li>
+          <li>
+            <a href="./about.html">Sobre mí</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+      <main class="main">
+        <div class="main--container">
+          <div>
+            <img
+              class="main--img"
+              src="https://picsum.photos/200"
+              alt="Mi foto de perfil"
+            />
+          </div>
+          <div class="main--info">
+            <h2 class="info--name">Nancy Soriano</h2>
+            <p class="info--description">Realizando proyectos en Css React y JavaScript</p>
+            <div class="main--links">
+              <a class="main--links main--links__salmon"href="./contact.html">Contacto</a>
+              <a class="main--links main--links__transparent"href="./about.html">Acerca de mí</a>
+            </div>
+            <div class="main--social-media">
+              <h2>Sígueme en:</h2>
+              <ul>
+                <li>
+                  <a href=""><i class="fa-brands fa-twitter"></i>Twitter</a>
+                  <a href=""><i class="fa-brands fa-instagram"></i>Instagram</a>
+                  <a href=""><i class="fa-brands fa-linkedin"></i>LinkedIn</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <ul>
+          <li>
+            <img src="" alt="React" />
+            <p>React</p>
+          </li>
+          <li>
+            <img src="" alt="HTML" />
+            <p>HTML</p>
+          </li>
+          <li>
+            <img src="" alt="CSS" />
+            <p>CSS</p>
+          </li>
+          <li>
+            <img src="" alt="JavaScript" />
+            <p>JavaScript</p>
+          </li>
+        </ul>
+
+        <footer>Todos los derechos reservados 2022</footer>
+      </main>
+    
+  </body>
 </html>
